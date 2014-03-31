@@ -39,7 +39,7 @@ public class NoRightClick extends JavaPlugin implements Listener {
 	public boolean onCommand(CommandSender sender, Command cmd, String CommandLabel, String[] args) {
 		if (cmd.getName().equalsIgnoreCase("norclist")) {
 			if (!(sender.isOp())){
-				sender.sendMessage(ChatColor.RED + "У Вас не достаточно прав.");
+				sender.sendMessage(ChatColor.RED + "You not have permission.");
 				return false;
 			} else {
 				sender.sendMessage(ilist.toString());
