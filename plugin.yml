@@ -1,0 +1,12 @@
+name: NoRightClick
+version: 1.0
+main: pl.AYuPro.NoRightClick.NoRightClick
+author: AYuPro
+description: Block Right Clicking with item in no build area.
+depend: [WorldGuard]
+
+commands:
+    norclist:
+        usage: /<command>
+        aliases: [rclist, nrclist]
+        description: ----
